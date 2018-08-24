@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq06l5RUVfib62IYRQacLc-KAy0XIWAVs"></script>
-  </head>
-  <body>
-    <div class="container"></div>
-  </body>
-  <script src="/bundle.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>title</title>
+        <meta name="author" content="name">
+        <meta name="description" content="description here">
+        <meta name="keywords" content="keywords,here">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./style/app.css" type="text/css">
+    </head>
+    <body>
+        <main data-page-scope="login">
+            <article>
+                <section class="row">
+                    <div class="flex__container">
+                        <div class="logo__splash__container"></div>
+                        <div class="form__container">
+                            <div class="container">
+                                <h1>
+                                    <span class="hide--text">Campaign Setup</span>
+                                    <img src="./Images/login-logo.svg" alt="Campaign Setup">
+                                </h1>
+                                <form action="#" data-ajax="true" data-ajax-begin="BeginLogin" data-ajax-success="DoSuccessLogin" id="frmLogin" method="post">                    
+                                    <div class="form__group">
+                                        <input class="text" id="UserName" name="UserName" placeholder="LionLogin Name" type="text" value="">
+                                    </div>
+                                    <div class="form__group">
+                                        <input class="text" id="Password" name="Password" placeholder="LionLogin Password" type="password">
+                                    </div>
+                                    <input type="hidden" id="returnUrl" name="returnUrl">
+                                    <button type="submit" class="btn--default" role="button">
+                                        <span class="icon__loading"></span><span class="btn__text">Let's Go</span>
+                                    </button>
+                                    <div class="actions">
+                                        <a href="#">Request Access</a> | <a href="https://update.publicisgroupe.net/">Forgot Password?</a>
+                                    </div>
+                                    <div class="login-msg">
+                                        <div class="alert alert--error">
+                                            <div class="icon__container flex__container flex--ai--c">
+                                                <figure>
+                                                    <svg class="general__icon icon__exclamation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1536 1536" xml:space="preserve">
+                                                        <path class="state--default" d="M768,0c139.3,0,267.8,34.3,385.5,103s210.8,161.8,279.5,279.5s103,246.2,103,385.5s-34.3,267.8-103,385.5
+                                                        s-161.8,210.8-279.5,279.5S907.3,1536,768,1536s-267.8-34.3-385.5-103S171.7,1271.2,103,1153.5S0,907.3,0,768s34.3-267.8,103-385.5
+                                                        S264.8,171.7,382.5,103S628.7,0,768,0z M896,1247v-190c0-9.3-3-17.2-9-23.5s-13.3-9.5-22-9.5H673c-8.7,0-16.3,3.3-23,10
+                                                        s-10,14.3-10,23v190c0,8.7,3.3,16.3,10,23s14.3,10,23,10h192c8.7,0,16-3.2,22-9.5S896,1256.3,896,1247z M894,903l18-621
+                                                        c0-8-3.3-14-10-18c-6.7-5.3-14.7-8-24-8H658c-9.3,0-17.3,2.7-24,8c-6.7,4-10,10-10,18l17,621c0,6.7,3.3,12.5,10,17.5
+                                                        s14.7,7.5,24,7.5h185c9.3,0,17.2-2.5,23.5-7.5S893.3,909.7,894,903z"></path>
+                                                    </svg>
+                                                </figure>
+                                            </div>
+                                            <div class="content__container">
+                                                <span class="field-validation-valid" data-valmsg-for="Login" data-valmsg-replace="true"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>            
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <footer></footer>
+        </main>
+        <script src="./scripts/vendors/babel-polyfill.js"></script>
+        <script src="./scripts/vendors/jquery-3.2.1.min.js"></script>
+        <script src="./scripts/app.js"></script>
+    </body>
 </html>
