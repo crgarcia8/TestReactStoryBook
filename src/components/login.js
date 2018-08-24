@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
+
 export default class Login extends Component {
 
     constructor(props){
         super(props);
-
-        this.onChangeUserName=this.onChangeUserName.bind(this);
+         this.onChangeUserName=this.onChangeUserName.bind(this);
         this.onChangePassword=this.onChangePassword.bind(this);
         this.onSubmit=this.onSubmit.bind(this);
         
@@ -17,7 +17,7 @@ export default class Login extends Component {
 
     onSubmit(event){
         if (this.state.user=='abc' && this.state.pass=='123'){
-            console.log('ok');
+            this.props.history.push("ddd")
         }
         event.preventDefault();
     }

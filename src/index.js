@@ -6,11 +6,13 @@ import Login from './components/login';
 
 import App from './components/app';
 import reducers from './reducers';
+import { BrowserRouter } from 'react-router-dom';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
+
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <Login />
-  </Provider>
+  <BrowserRouter><Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider></BrowserRouter>
   , document.querySelector('.container'));
