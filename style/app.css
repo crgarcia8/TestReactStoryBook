@@ -277,8 +277,8 @@
 }
 
 .vertical__navigation figure svg {
- /*width: 20px;
-            height: 20px;*/;
+ width: 20px;
+            height: 20px;
 }
 
 .vertical__navigation #nav__toggle__open__close {
@@ -710,7 +710,8 @@ ul.ul--unstyled {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding: 10px 30px;
+  /*padding: 10px 30px;*/
+  padding: 10px 0px;
 }
 
 .has--sidebar--nav .container {

@@ -3,9 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Test = (props) => (
     <div>
-        <Link to={`/`}>
-            Volver a Login
-        </Link>
+        <div>
+            <Link to={`/`}>
+                Volver a Login
+            </Link>
+        </div>
+        <div>
+            <Link to={`/grid`}>
+                Ir a Grid
+            </Link>
+        </div>
     </div>
 )
 
