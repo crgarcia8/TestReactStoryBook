@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
-import Section from './section';
+import Section from '../containers/section';
 import ClientHeader from './clientHeader';
 import Form from './form';
 import { Link } from 'react-router-dom';
