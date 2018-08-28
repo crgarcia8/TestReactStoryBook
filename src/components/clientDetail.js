@@ -11,11 +11,15 @@ export default class ClientDetail extends Component {
       <div>
         <Header />
         <ClientHeader />
-        <Section />
-        <Form />
-        <Link to={`/clientLanding`}>
-          Ir a Client Landing
-            </Link>
+        <Link to={`/clientLanding`}>Ir a Client Landing</Link>
+        <div className="row">
+          <div className="col-md-3">
+            <Section />
+          </div>
+          <div className="col-md-9">
+            <Form />
+          </div>
+        </div>
       </div>
     );
   }

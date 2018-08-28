@@ -22,11 +22,13 @@
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
+    "rc-steps": "^3.2.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
     "react-router-dom": "^4.3.1",
     "react-select": "^2.0.0",
+    "react-table": "^6.8.6",
     "redux": "4.0.0"
   }
 }
