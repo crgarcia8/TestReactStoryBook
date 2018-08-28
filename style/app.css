@@ -860,8 +860,13 @@ ul.ul--unstyled {
 }
 
 .alert {
-  margin: 30px 0;
-  position: relative;
+    padding-left: 10px;   
+    height: 60px;
+    display: inline-block;
+}
+.alert_item {
+    padding-left: 25px;   
+    display: inline-block;
 }
 
 .alert .icon__container {
@@ -875,6 +880,7 @@ ul.ul--unstyled {
   -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  display: inline-block
 }
 
 .alert .icon__exclamation {
@@ -2540,7 +2546,6 @@ body.show--overlay #modal__overlay {
 [data-page-scope="login"] input:-webkit-autofill,[data-page-scope="login"] input:-webkit-autofill:hover,[data-page-scope="login"] input:-webkit-autofill:focus,[data-page-scope="login"] input:-webkit-autofill:active {
   background-color: transparent !important;
   background: transparent !important;
-  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
   position: relative;
 }
 

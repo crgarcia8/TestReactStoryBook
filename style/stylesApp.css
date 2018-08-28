@@ -1,0 +1,62 @@
+.HeaderContainer {
+  display: block;
+  height: 55px;
+  padding: 9px 0;
+  position: relative;
+  width: 100%;
+}
+.HeaderContainer .wrapper {
+  max-width: 100%;
+  height: 100%;
+}
+.HeaderContainer .logo {
+  height: 100%;
+  display: block;
+  width: 60px;
+}
+.HeaderContainer header {
+  display: flex;
+  padding-left: 50px;
+  width: 100%;
+  height: 100%;
+}
+.HeaderContainer header h5 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 800px;
+  color: rgba(80, 80, 82, 0.6);
+}
+.HeaderContainer header h5 a {
+  color: rgba(80, 80, 82, 0.6);
+}
+.HeaderContainer header span {
+  display: flex;
+  width: 80%;
+}
+.HeaderContainer .slide {
+  display: flex;
+  width: 300px;
+}
+.HeaderContainer .slide h5 {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 15px;
+  color: rgba(80, 80, 82, 0.6);
+  width: auto;
+}
+
+.ClientHeader {
+  background: yellow;
+  display: block;
+  height: 55px;
+  padding: 9px 0;
+  position: relative;
+  width: 100%;
+}
+.ClientHeader h3 {
+  color: rgba(26, 26, 32, 0.6);
+}
+
+/*# sourceMappingURL=stylesApp.css.map */
