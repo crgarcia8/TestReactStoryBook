@@ -59,4 +59,13 @@
   color: rgba(26, 26, 32, 0.6);
 }
 
+.mainContainer{
+  padding: 0px !important;  
+}
+
+.clientGrid{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=stylesApp.css.map */
