@@ -17,7 +17,7 @@ export default class Login extends Component {
 
     onSubmit(event){
         console.log("Logged");
-        if (this.state.user=='abc' && this.state.pass=='123'){
+        if (this.state.user=='admin' && this.state.pass=='admin'){
             this.props.history.push("clientLanding")
         }else{
             alert('Error');

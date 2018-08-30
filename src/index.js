@@ -15,4 +15,4 @@ ReactDOM.render(
   <BrowserRouter><Provider store={createStoreWithMiddleware(reducers)}>
     <App />
   </Provider></BrowserRouter>
-  , document.querySelector('.container'));
+  , document.querySelector('.mainContainer'));
