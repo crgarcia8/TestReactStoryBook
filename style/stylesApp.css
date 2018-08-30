@@ -1,9 +1,12 @@
 .HeaderContainer {
   display: block;
-  height: 55px;
+  height: 100px;
   padding: 9px 0;
   position: relative;
   width: 100%;
+  background-color:#e8e9ed;
+  padding-left: 20px;
+  margin-top:-10px;
 }
 .HeaderContainer .wrapper {
   max-width: 100%;
@@ -66,6 +69,7 @@
 
 .clientGrid{
   max-width: 800px;
+  min-width: 800px;
   margin: 20px auto;
 }
 
@@ -97,4 +101,8 @@
 }
 .mb50{
   margin-bottom:50px; 
+}
+
+.sectionClass{
+  padding: 20px;
 }

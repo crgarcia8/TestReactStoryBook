@@ -12,13 +12,14 @@ class Section extends Component {
   }
   render() {
     return (
-      <div><h1>Section</h1>
+      <div className="sectionClass">
         <Steps direction="vertical" current={this.props.current44}>
           <Steps.Step key={1} title="Client Profile" onClick={() => this.props.selectSection3(0)} />
           <Steps.Step key={2} title="Account Management" onClick={() => this.props.selectSection3(1)} />
           <Steps.Step key={3} title="System & Tools" onClick={() => this.props.selectSection3(2)} />
           <Steps.Step key={4} title="Platforms & Rates" onClick={() => this.props.selectSection3(3)} />
-        </Steps></div>
+        </Steps>
+      </div>
     );
   }
 }

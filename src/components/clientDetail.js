@@ -11,7 +11,6 @@ export default class ClientDetail extends Component {
       <div>
         <Header />
         <ClientHeader />
-        <Link to={`/clientLanding`}>Ir a Client Landing</Link>
         <div className="row">
           <div className="col-md-3">
             <Section />
@@ -20,6 +19,7 @@ export default class ClientDetail extends Component {
             <Form />
           </div>
         </div>
+        
       </div>
     );
   }

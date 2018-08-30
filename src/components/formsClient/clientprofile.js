@@ -6,7 +6,7 @@ export default class ClientProfile extends Component {
     }
     render() {
         return (
-            <h1>profile</h1>
+            <h1>Profile</h1>
         );
     }
 }

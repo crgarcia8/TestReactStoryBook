@@ -6,7 +6,7 @@ export default class ClientRates extends Component {
     }
     render() {
         return (
-            <h1>platform And Rates</h1>
+            <h1>Platform & Rates</h1>
         );
     }
 }
