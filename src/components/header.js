@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 export default class Header extends Component {
   render() {
     return (
-      <div>
-        <nav className="navbar navbar-toggleable-md navbar-inverse bg-inverse h40" >
+      <div className="mb50">
+        <nav className="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse h40" >
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -21,9 +21,9 @@ export default class Header extends Component {
               <li className="mt9 mr30">
                 <a href="#">
                   <figure>
-                    <svg class="general__icon icon__info" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 19.4 20.5" space="preserve">
-                      <path class="state--default state--default--stroke state--default--stroke-width" d="M16.1,20.3H4c-1.7,0-3-1.4-3-3V3.3c0-1.7,1.4-3,3-3h12.1c1.7,0,3,1.4,3,3v13.9C19.1,18.9,17.8,20.2,16.1,20.3zM4,1.1c-1.2,0-2.2,1-2.2,2.2v13.9c0,1.2,1,2.2,2.2,2.2h12.1c1.2,0,2.2-1,2.2-2.2V3.3c0-1.2-1-2.2-2.2-2.2C16.1,1.1,4,1.1,4,1.1z"></path>
-                      <path class="state--default" d="M0,9.8h1.7v0.9H0V9.8zM0,12h1.7v0.9H0V12zM0,14.2h1.7V15H0V14.2zM0,3.3h1.7v0.9H0V3.3zM0,5.5h1.7v0.9H0V5.5zM0,7.6h1.7v0.9H0V7.6zM0,16.3h1.7v0.9H0V16.3zM11.7,13.2v-0.9c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1H11V9.3c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1H9c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1v0.9c0,0.1,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1h0.5v1.8H9c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1v0.9c0,0.1,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1h2.5c0,0,0.1,0,0.1-0.1C11.7,13.3,11.7,13.3,11.7,13.2zM11,8.2V7.3c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1H9.7c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1v0.9c0,0.1,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1h1.1c0,0,0.1,0,0.1-0.1C11,8.3,11,8.3,11,8.2zM14.6,10.5c0,0.8-0.2,1.5-0.6,2.1c-0.4,0.6-0.9,1.2-1.6,1.6c-0.7,0.4-1.4,0.6-2.2,0.6c-0.8,0-1.5-0.2-2.2-0.6c-0.6-0.4-1.2-0.9-1.6-1.6C6.2,12,6,11.3,6,10.5C6,9.8,6.2,9,6.6,8.4c0.4-0.6,0.9-1.2,1.6-1.6c0.7-0.4,1.4-0.6,2.1-0.6c0.8,0,1.5,0.2,2.2,0.6c0.6,0.4,1.2,0.9,1.6,1.6C14.4,9,14.6,9.8,14.6,10.5L14.6,10.5z"></path></svg>
+                    <svg className="general__icon icon__info" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 19.4 20.5" space="preserve">
+                      <path className="state--default state--default--stroke state--default--stroke-width" d="M16.1,20.3H4c-1.7,0-3-1.4-3-3V3.3c0-1.7,1.4-3,3-3h12.1c1.7,0,3,1.4,3,3v13.9C19.1,18.9,17.8,20.2,16.1,20.3zM4,1.1c-1.2,0-2.2,1-2.2,2.2v13.9c0,1.2,1,2.2,2.2,2.2h12.1c1.2,0,2.2-1,2.2-2.2V3.3c0-1.2-1-2.2-2.2-2.2C16.1,1.1,4,1.1,4,1.1z"></path>
+                      <path className="state--default" d="M0,9.8h1.7v0.9H0V9.8zM0,12h1.7v0.9H0V12zM0,14.2h1.7V15H0V14.2zM0,3.3h1.7v0.9H0V3.3zM0,5.5h1.7v0.9H0V5.5zM0,7.6h1.7v0.9H0V7.6zM0,16.3h1.7v0.9H0V16.3zM11.7,13.2v-0.9c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1H11V9.3c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1H9c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1v0.9c0,0.1,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1h0.5v1.8H9c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1v0.9c0,0.1,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1h2.5c0,0,0.1,0,0.1-0.1C11.7,13.3,11.7,13.3,11.7,13.2zM11,8.2V7.3c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1H9.7c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1v0.9c0,0.1,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1h1.1c0,0,0.1,0,0.1-0.1C11,8.3,11,8.3,11,8.2zM14.6,10.5c0,0.8-0.2,1.5-0.6,2.1c-0.4,0.6-0.9,1.2-1.6,1.6c-0.7,0.4-1.4,0.6-2.2,0.6c-0.8,0-1.5-0.2-2.2-0.6c-0.6-0.4-1.2-0.9-1.6-1.6C6.2,12,6,11.3,6,10.5C6,9.8,6.2,9,6.6,8.4c0.4-0.6,0.9-1.2,1.6-1.6c0.7-0.4,1.4-0.6,2.1-0.6c0.8,0,1.5,0.2,2.2,0.6c0.6,0.4,1.2,0.9,1.6,1.6C14.4,9,14.6,9.8,14.6,10.5L14.6,10.5z"></path></svg>
                   </figure>
                 </a>
               </li>
