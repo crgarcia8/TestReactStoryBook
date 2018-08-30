@@ -9,10 +9,11 @@
   max-width: 100%;
   height: 100%;
 }
-.HeaderContainer .logo {
-  height: 100%;
+.logo-header {
+  height: auto; 
+  width: auto; 
+  max-height: 25px;
   display: block;
-  width: 60px;
 }
 .HeaderContainer header {
   display: flex;
@@ -65,7 +66,32 @@
 
 .clientGrid{
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+
+.customLink:visited .customLink:hover{
+  color: black !important;
+  cursor:pointer !important;
+  text-decoration: none !important;
 }
 
 /*# sourceMappingURL=stylesApp.css.map */
+.flex__container{
+  width: 100%;
+}
+#logo__publicis {
+  background: transparent url(../Images/logo_lion.svg) left center no-repeat;
+  margin: 0;
+  width: 52px;
+  height: 40px;
+  position: relative;
+}
+.mt9{
+  margin-top: 9px;
+}
+.h40{
+  height: 40px;
+}
+.mr30{
+  margin-right: 30px;
+}

@@ -8,12 +8,13 @@ export default class ClientLanding extends Component {
     return (
       <div>
         <Header />
+        
         <ClientGrid />
-        <div>
+        {/* <div>
           <Link to={`/clientDetail`}>
             Ir a Client Detail
             </Link>
-        </div>
+        </div> */}
       </div>
     );
   }
