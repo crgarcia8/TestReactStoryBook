@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import ReactTable from "react-table";
-import {connect} from 'react-redux';
-import {fetchClients} from '../actions';
+import { connect } from 'react-redux';
+import { fetchClients } from '../actions';
 
 class ClientGrid extends Component {
   render() {
     return (
       <div className="row">
-        <div class="clientGrid small">
+        <div className="clientGrid small">
           <ReactTable
-            data = {this.props.clients}
+            data={this.props.clients}
             columns={[
               {
                 Header: "CLIENT NAME",
                 accessor: "name",
                 minWidth: 200,
-                style:{}
+                style: {}
               },
               {
                 Header: "STATUS",
@@ -38,18 +38,17 @@ class ClientGrid extends Component {
             defaultPageSize={10}
             className="-highlight"
             noDataText="Create your first client"
-            showPageSizeOptions="false"
-          />
+                      />
         </div>
       </div>
     );
   }
 }
 
-function mapStateToProps(state){
-  return{
-      clients: state.clients
+function mapStateToProps(state) {
+  return {
+    clients: state.clients
   };
 }
 
-export default connect (mapStateToProps)(ClientGrid);
+export default connect(mapStateToProps)(ClientGrid);
