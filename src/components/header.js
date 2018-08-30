@@ -39,10 +39,10 @@ export default class Header extends Component {
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   admin</a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a className="dropdown-item" href="#">ADMIN</a>
-                  <a className="dropdown-item" href="#">MANAGE USERS</a>
-                  <Link className="dropdown-item" to="/">LOG OFF</Link>
+                <div className="dropdown-menu dropdown-menu-right bg-inverse" aria-labelledby="navbarDropdownMenuLink">
+                  <a className="dropdown-item text-white" href="#">ADMIN</a>
+                  <a className="dropdown-item text-white" href="#">MANAGE USERS</a>
+                  <Link className="dropdown-item text-white" to="/">LOG OFF</Link>
                 </div>
               </li>
             </ul>
