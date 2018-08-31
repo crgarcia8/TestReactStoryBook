@@ -8,7 +8,9 @@ class ClientGrid extends Component {
     return (
       <div>
       <div className="row">
+      
         <div className="input-group searchIn">
+        
           <div className="input-group-prepend">
             <span className="input-group-text"></span>
           </div>

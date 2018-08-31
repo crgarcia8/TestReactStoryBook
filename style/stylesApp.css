@@ -109,3 +109,12 @@
 form a{
   margin-left: 5px;
 }
+
+.searchIn{
+  max-width: 200px;
+  margin: 20px 100px auto auto;
+}
+
+.customBtn{
+  margin: auto -800px auto auto ;
+}

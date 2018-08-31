@@ -17,4 +17,5 @@ export default function(){
         {name:'Test Client 14', status: 'Draft', dateCreation:'11/15/2018', dateModified:'05/20/2018', menu:'...'},
         {name:'Test Client 15', status: 'Draft', dateCreation:'05/12/2018', dateModified:'02/01/2018', menu:'...'}
     ]
+    // return []
 };
